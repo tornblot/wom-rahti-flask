@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     ret = { 
-        'msg': 'Rahti Flask demo works.', 
+        'msg': 'Flask works on Rahti!', 
         'env': os.environ.get('ENV_VAR', 'Cannot find variable ENV_VAR') 
     }
 
