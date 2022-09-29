@@ -1,5 +1,9 @@
 test/rahti.http
 
+# OpenShift
+.odo/env
+.odo/odo-file-index.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
