@@ -6,13 +6,22 @@ GET {{baseUrl}}
 
 ###
 
-GET {{baseUrl}}/test-route
+POST {{baseUrl}}
+Content-Type: application/json
+
+{
+    "testkey": "Test value"
+}
 
 ###
 
-POST {{baseUrl}}/test-route
+GET {{baseUrl}}/users
+
+###
+
+POST {{baseUrl}}/users
 Content-Type: application/json
 
 { 
-    "testkey": "Test value"
+    "email": "johnny.test@foo.bar"
 }
